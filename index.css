@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --border: 1px solid black;
+}
+body{
+    font-size: 1.2rem;
+}
+nav{
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .5rem;
+}
+nav a{
+    text-decoration: none;
+}
+.sec1{
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    padding: .5rem;
+}
+.sec1-about{
+    padding: 1rem;
+}
+.sec1-about-text{
+    margin-bottom: .3rem;
+}
+.sec1 img{
+    border-radius: 50%;
+}
+.mern-circles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding-left: 0;
+    column-gap: 0.3rem;
+}
+.mern-circles .circle{
+    border: var(--border);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec2{
+    padding: 1rem;
+}
+.sec2 h2{
+    text-align: center;
+}
+.sec2 .skills{
+    border: var(--border);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.sec2 .skills-g{
+    border: var(--border);
+    display: flex;
+    flex-direction: column;
+    row-gap: .2rem;
+}
+.sec3 h2{
+    padding: 1rem;
+    text-align: center;
+}
+.sec3 .project-1{
+    border: var(--border);
+    padding: 1rem;
+}
+.sec3 .project-1 .project-img-con{
+    border: var(--border);
+    
+}
+.sec3 .project-1 .project-img-con img{
+    width: 100%;
+    height: auto;
+}
+.sec3 .project-about{
+    border: var(--border);
+    padding: 1rem;
+}
+.sec3 .project-about h4{
+    margin-bottom: .5rem;
+}
+.sec3 .project-about .project-about-details{
+    list-style: circle;
+    margin-left: 1rem;
+
+}
+.project-1 .live-links{
+    border: var(--border);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+footer{
+    margin-top: 1rem;
+    padding: 1rem;
+}
