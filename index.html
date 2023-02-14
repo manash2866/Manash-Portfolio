@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="#projects">My Projects</a>
+        </nav>
+    </header>
     <main>
-        <section class="sec1">
+        <section class="sec1" id="sec1">
             <div class="profile-pic">
                 <img src="/assets/profile pic.jpg" alt="profile-pic" width="100" height="100">
                 <p>Manash</p>
@@ -19,12 +24,12 @@
                 <p>Web Developer</p>
                 <p>Javascript | Full Stack Developer | MERN</p>
             </div>
-            <div class="contacts">
+            <div class="contacts" id="contacts">
                 <p class="heading">Contact</p>
-                <p>manashkumar2866@gmail.com</p>
+                <p><a href="mailto:manashkumar2866@gmail.com" class="mail">manashkumar2866@gmail.com</a></p>
                 <div class="links">
-                    <p><a href="">LinkedIn</a> </p>
-                    <p><a href="">GitHub</a> </p>
+                    <p><a href="https://www.linkedin.com/in/manash-behera-6b9491216/" target="_blank">&#128279; LinkedIn</a> </p>
+                    <p><a href="https://github.com/manash2866" target="_blank">&#128279; GitHub</a> </p>
                 </div>
             </div>
         </section>
@@ -53,7 +58,7 @@
         </section>
         <section class="sec3">
             <h3><span>PROJECTS</span></h3>
-            <div class="projects">
+            <div class="projects" id="projects">
                 <div class="project">
                     <div><img src="/assets/jobify-landing.png" alt="" width="100" height="100"></div>
                     <div class="project-detail">
@@ -64,9 +69,10 @@
                         <p>- See trending monthly application chart</p>
                         <p>- Employer can create, manage jobs</p>
                         <div class="links"> 
-                            <a href="">Source Code</a>
-                            <a href="">Live Link</a>
+                            <a href="https://github.com/manash2866/jobify-mern-stack" target="_blank">&#128279; Source Code</a>
+                            <a href="https://jobify-mern-app.onrender.com/" target="_blank">&#128279; Live Link</a>
                         </div>
+                        <p class="note"><small>clicking on live link - * initial load takes 30sec</small></p>
                     </div>
                 </div>
                 <div>
@@ -81,9 +87,10 @@
                             <p>- Camp creator can create and update camp info securely</p>
                             <p>- See other students reviews and you can post your thought also</p>
                             <div class="links"> 
-                                <a href="">Source Code</a>
-                                <a href="">Live Link</a>
+                                <a href="https://github.com/manash2866/YelpCamp" target="_blank">&#128279; Source Code</a>
+                                <a href="https://yelp-camp-blc3.onrender.com/" target="_blank">&#128279; Live Link</a>
                             </div>
+                            <p class="note"><small>clicking on live link - * initial load takes 30sec</small></p>
                         </div>
                     </div>
                     <div class="technical">
@@ -100,5 +107,9 @@
             </div>
         </section>
     </main>
+    <footer>
+        <a href="#sec1">Home</a>
+        <a href="#contacts">Contact</a>
+    </footer>
 </body>
 </html>
