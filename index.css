@@ -36,6 +36,7 @@ nav a{
 a:hover{
    transition: all .2s ease-in-out;
    transform: scaleX(1.1);
+   background-color: aliceblue;
 }
 
 .sec1{
@@ -44,9 +45,10 @@ a:hover{
    align-items: center;
    justify-content: space-around;
    margin-top: .2rem;
-   background-color: rgba(128, 128, 128, 0.261);
+   background-color:rgba(128, 128, 128, 0.724);
+   /* background-color: rgba(128, 128, 128, 0.479); */
    color: rgba(0, 0, 0, 0.726);
-   font-weight: 500;
+   font-weight: bold;
 }
 .sec1 img{
    border-radius: 50%;
@@ -130,12 +132,16 @@ a:hover{
    padding: 1rem;
    margin: 1rem;
 }
+
 .sec3 .project{
    padding: 1rem;
    margin: 1rem;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
 
+}
+.project.yelp{
+   margin-bottom: 0;
 }
 .project img{
    width: 100%;
@@ -166,19 +172,26 @@ a:hover{
 .project .project-detail .links a{
    text-decoration: none;
    color: var(--profile-text-color);
-   background-color: var(--profile-bgcolor);
+   background-color:  rgba(128, 128, 128, .3);
    padding: .5rem;
    border-radius: 90px;
+   font-weight: bold;
+}
+
+.project .project-detail .links a:hover{
+   background-color: aliceblue;
 }
 .project .note{
    text-align: center;
 }
 .projects .technical{
-   padding: 1rem;
-   padding-top:0 ;
    display: flex;
    align-items: center;
    justify-content: space-around;
+   margin: 0 2rem;
+   background-color:rgba(128, 128, 128, 0.432);
+   font-weight: 400;
+   padding: .5rem 0;
 }
 footer{
    padding: 1.2rem;
